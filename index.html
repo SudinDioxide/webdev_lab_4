@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSKTM IT Club</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-height: 600px;
+        }
+
+        .logo,
+        .navigation,
+        .content,
+        .footer {
+            margin-top: 10px;
+        }
+
+        .logo {
+            min-height: 100px;
+            background-color: #1a237e;
+            color: white;
+            padding: 20px;
+        }
+
+        .navigation {
+            min-height: 50px;
+            background-color: #283593;
+            padding: 15px;
+        }
+
+        .footer {
+            min-height: 20px;
+            background-color: #9fa8da;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .content {
+            min-height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .side-bar {
+            width: 20%;
+            background-color: #e8eaf6;
+            padding: 15px;
+        }
+
+        .body-area {
+            width: 70%;
+            background-color: #ffffff;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Logo/Header Region -->
+        <div class="logo">
+            <h1>FSKTM IT Club</h1>
+        </div>
+
+        <!-- Navigation Region -->
+        <div class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- Content Region -->
+        <div class="content">
+
+            <!-- Side-bar Column -->
+            <div class="side-bar">
+                <h2>Club Corner</h2>
+            </div>
+
+            <!-- Body Area Column -->
+            <div class="content">
+                <div class="side-bar">
+                    <h2>Club Corner</h2>
+                    <ul>
+                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="#">Learning Resources</a></li>
+                        <li><a href="#">Join the Club</a></li>
+                    </ul>
+                </div>
+                <div class="body-area">
+                    <h2>Discover Technology, Create Possibilities</h2>
+                    <p>Welcome to Campus Tech Society! We are a student-led community...</p>
+                    <h2>About Our Club</h2>
+                    <p>Our mission is to help students build practical skills through hands-on workshops...</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer Region -->
+        <div class="footer">
+            <p>&copy; 2026 FSKTM IT Club</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
